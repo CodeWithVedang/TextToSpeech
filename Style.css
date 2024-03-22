@@ -1,1 +1,70 @@
 
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #0e1117; /* Dark navy blue */
+  color: #ddd; /* Light grey text color */
+}
+
+.title {
+  text-align: center;
+  padding: 20px 0;
+  margin: 0;
+  font-family:Garamond, serif;
+}
+
+.container {
+  text-align: center;
+}
+
+textarea {
+  width: 300px;
+  height: 200px;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #1b1f25; /* Darker background color */
+  color: #ddd; /* Light grey text color */
+}
+
+.voice-selection {
+  margin-bottom: 10px;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff; /* Blue accent color */
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px; /* Add margin between button and GitHub icon */
+}
+
+.github-icon {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.github-icon svg {
+  width: 24px;
+  height: 24px;
+  fill: #fff; /* White color for GitHub icon */
+}
+
+button:disabled {
+  background-color: #ccc; /* Disable styling for disabled button */
+  cursor: not-allowed;
+}
+
+.error-msg {
+  color: red;
+  margin-top: 10px;
+  display: none;
+}
